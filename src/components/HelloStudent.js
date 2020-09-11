@@ -5,13 +5,20 @@ import React from 'react';
 // Props allow us to pass values INTO our components from a parent document / component.
 const HelloStudent = props => {
   return (
-    <p>
-      Hello&nbsp;
-      { props.name },
-      welcome to TECHCareers and its React unit!
-      Their favourite unit is:&nbsp;
-      { props.unit }
-    </p>
+    // <p>
+    //   Hello&nbsp;
+    //   { props.name },
+    //   welcome to TECHCareers and its React unit!
+    //   Their favourite unit is:&nbsp;
+    //   { props.unit }
+    // </p>
+        <select class='where'>
+        <option></option>
+        <option value='add'>&nbsp; +  </option>
+        <option value='subtract'>&nbsp;  -  </option>
+        <option value='divid'>&nbsp;  /  </option>
+        <option value='multiply'>&nbsp; *  </option>
+      </select>
   );
 }
 

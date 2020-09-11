@@ -6,7 +6,7 @@ function Hello ()
 { // Every component should return JSX.
   return (
     <h1>
-      Hello, World
+      Welcome to my Calculator!
     </h1>
   );
 }

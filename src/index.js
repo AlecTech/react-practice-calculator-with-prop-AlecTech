@@ -7,9 +7,12 @@ import HelloStudent from './components/HelloStudent';
 ReactDOM.render(
   <React.StrictMode>
     <Hello />
-    <HelloStudent name="Birm" unit="React" />
+    <HelloStudent />
+    
+    {/* <HelloStudent name="Birm" unit="React" />
     <HelloStudent name="Danish" unit="JavaScript" />
-    <HelloStudent name="Adolf" unit="React" />
+    <HelloStudent name="Adolf" unit="React" /> */}
+
   </React.StrictMode>,
   document.getElementById('root')
 );
