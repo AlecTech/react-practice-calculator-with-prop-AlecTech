@@ -3,7 +3,7 @@ import React from 'react';
 // We can try a fat arrow function as well (let's try to be consistent in the real world though!)
 // If the component accepts a parameter, this is referred to as a "prop."
 // Props allow us to pass values INTO our components from a parent document / component.
-const DropDownMenu = props => {
+const Calculator = props => {
   return (
     // <p>
     //   Hello&nbsp;
@@ -13,6 +13,7 @@ const DropDownMenu = props => {
     //   { props.unit }
     // </p>
     <div>
+      <h1>Welcome to my Calculator!</h1>
       <h2>Input 1:</h2>
       <input type='text' class='field' />
       <h2>Operator</h2>
@@ -32,4 +33,4 @@ const DropDownMenu = props => {
   );
 }
 
-export default DropDownMenu 
+export default Calculator 
