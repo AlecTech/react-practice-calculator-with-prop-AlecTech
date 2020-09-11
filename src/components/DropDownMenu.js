@@ -26,7 +26,7 @@ const DropDownMenu = props => {
       <h2>Input 2:</h2>
       <input type='text' class='field' />
       <h2></h2>
-      <input type='submit' class='submitBtn' value='Submit'/>
+      <input type='submit' class='submitBtn success' value='Submit'/>
   </div>
       
   );
